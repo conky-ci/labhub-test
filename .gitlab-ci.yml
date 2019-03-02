@@ -1,3 +1,5 @@
 image: ubuntu
-script:
-- echo hello
+hello:
+    stage: build
+    script:
+    - echo hello
